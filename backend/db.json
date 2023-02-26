@@ -1,0 +1,2201 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-02-26T14:10:32.420Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "Home appliances",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-02-26T14:10:41.129Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "Personal care products",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-02-26T14:10:47.153Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "3",
+            "object_repr": "Clothing and fashion accessories",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-02-26T14:10:52.679Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "4",
+            "object_repr": "Electronics and gadgets",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2023-02-26T14:10:58.459Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "5",
+            "object_repr": "Sports equipment",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2023-02-26T14:11:05.105Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "6",
+            "object_repr": "Toys and games",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2023-02-26T14:11:10.614Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "7",
+            "object_repr": "Automotive parts and accessories",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2023-02-26T14:11:15.329Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "8",
+            "object_repr": "Beauty and skincare products",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2023-02-26T14:11:21.679Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "9",
+            "object_repr": "Home decor and furnishings",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2023-02-26T14:11:27.977Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "10",
+            "object_repr": "Office supplies and stationery",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2023-02-26T14:32:02.407Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "ChillMaster Portable Air",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2023-02-26T14:34:39.571Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "SmartBrew Coffee Maker",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2023-02-26T14:35:36.594Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "3",
+            "object_repr": "FreshXpress Juicer",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2023-02-26T14:36:20.948Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "4",
+            "object_repr": "ToastIt 2-Slice Toaster",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2023-02-26T15:41:38.147Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "35",
+            "object_repr": "InfinityPod Earbuds",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2023-02-26T15:42:48.018Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "36",
+            "object_repr": "SmartHub Security System",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2023-02-26T15:43:26.875Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "37",
+            "object_repr": "ZoomLite Video camera",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2023-02-26T15:44:15.218Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "38",
+            "object_repr": "StreamMate Stick",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2023-02-26T15:45:21.959Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "39",
+            "object_repr": "MaxCharge Power Bank",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2023-02-26T15:59:37.395Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "e1d75ca3-880f-4add-ac37-0eb4097e8e64",
+            "object_repr": "content",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2023-02-26T15:59:37.412Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "d216d33b-b4d8-4f6e-9da5-4d19e693d551",
+            "object_repr": "content",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2023-02-26T15:59:37.419Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "93488461-22da-4ee7-9369-241245173cc3",
+            "object_repr": "content",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2023-02-26T16:07:48.628Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8d1d0932-80e8-4a3f-9e01-b5b7f8fa3dbf",
+            "object_repr": "Profile object (8d1d0932-80e8-4a3f-9e01-b5b7f8fa3dbf)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Mobile number\", \"Full name\", \"Image\", \"Address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2023-02-26T17:25:08.966Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8d1d0932-80e8-4a3f-9e01-b5b7f8fa3dbf",
+            "object_repr": "AdminTestUser",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2023-02-26T17:25:23.466Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "object_repr": "TestUser",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2023-02-26T17:25:29.389Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "object_repr": "TestUser",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2023-02-26T17:25:32.035Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8d1d0932-80e8-4a3f-9e01-b5b7f8fa3dbf",
+            "object_repr": "AdminTestUser",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 4,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 4,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 4,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 4,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 5,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 5,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 5,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 5,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add blacklisted token",
+            "content_type": 6,
+            "codename": "add_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change blacklisted token",
+            "content_type": 6,
+            "codename": "change_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete blacklisted token",
+            "content_type": 6,
+            "codename": "delete_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view blacklisted token",
+            "content_type": 6,
+            "codename": "view_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add outstanding token",
+            "content_type": 7,
+            "codename": "add_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change outstanding token",
+            "content_type": 7,
+            "codename": "change_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete outstanding token",
+            "content_type": 7,
+            "codename": "delete_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view outstanding token",
+            "content_type": 7,
+            "codename": "view_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 8,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 8,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 8,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 8,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add Profile",
+            "content_type": 9,
+            "codename": "add_profile"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change Profile",
+            "content_type": 9,
+            "codename": "change_profile"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete Profile",
+            "content_type": 9,
+            "codename": "delete_profile"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view Profile",
+            "content_type": 9,
+            "codename": "view_profile"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add Product",
+            "content_type": 10,
+            "codename": "add_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change Product",
+            "content_type": 10,
+            "codename": "change_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete Product",
+            "content_type": 10,
+            "codename": "delete_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view Product",
+            "content_type": 10,
+            "codename": "view_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add Review",
+            "content_type": 11,
+            "codename": "add_review"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change Review",
+            "content_type": 11,
+            "codename": "change_review"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete Review",
+            "content_type": 11,
+            "codename": "delete_review"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view Review",
+            "content_type": 11,
+            "codename": "view_review"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add Order",
+            "content_type": 12,
+            "codename": "add_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change Order",
+            "content_type": 12,
+            "codename": "change_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete Order",
+            "content_type": 12,
+            "codename": "delete_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view Order",
+            "content_type": 12,
+            "codename": "view_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add OrderDetail",
+            "content_type": 13,
+            "codename": "add_orderdetail"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change OrderDetail",
+            "content_type": 13,
+            "codename": "change_orderdetail"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete OrderDetail",
+            "content_type": 13,
+            "codename": "delete_orderdetail"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view OrderDetail",
+            "content_type": 13,
+            "codename": "view_orderdetail"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add Category",
+            "content_type": 14,
+            "codename": "add_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change Category",
+            "content_type": 14,
+            "codename": "change_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete Category",
+            "content_type": 14,
+            "codename": "delete_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view Category",
+            "content_type": 14,
+            "codename": "view_category"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "blacklistedtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "outstandingtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "apps_users",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "profiles",
+            "model": "profile"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "products",
+            "model": "product"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "reviews",
+            "model": "review"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "orders",
+            "model": "order"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "orders",
+            "model": "orderdetail"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "categories",
+            "model": "category"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "nsl3aaxssmaewyge8eg4uqm7bo6cb1wj",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlnZjb-U9JzB8q4dHEC2FCcV4u4QKQW0b2beS4S4rSVsPS9hTuIsQJx-N4r8yHUH6R7rrUludV1mkrsiD9rltaX8vBzu30GJvXxr49wE6EH5BGA9oB0ADRAAkofoHPthVFkjceaRiRQqnEB7tlppk8T7A54vNnk:1pWHhJ:GRjkAV9Gz7-IxcsN-CDCC84BIMPtahBTMWhOF8rZEuU",
+            "expire_date": "2023-03-12T14:08:17.059Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "jti": "f92dd1be5ad949a7ac7da4fd85e665fb",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY3NzUxMjkxOCwiaWF0IjoxNjc3NDI2NTE4LCJqdGkiOiJmOTJkZDFiZTVhZDk0OWE3YWM3ZGE0ZmQ4NWU2NjVmYiIsInVzZXJfaWQiOjJ9.TTYHjH1MW08Szw0VBIThDIqUKKXe9qOWQXmx-Bf1VGw",
+            "created_at": "2023-02-26T15:48:38.997Z",
+            "expires_at": "2023-02-27T15:48:38Z"
+        }
+    },
+    {
+        "model": "apps_users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$3M0mkocTkA9bG4RNORbPDu$jQJqqPsl7egL+pehPb0vcbUcDy2QgiHqR+OmOqcJqa0=",
+            "last_login": "2023-02-26T14:08:17.039Z",
+            "is_superuser": true,
+            "email": "admintest@mail.com",
+            "is_active": true,
+            "is_staff": true,
+            "created": "2023-02-26T14:07:32.029Z",
+            "updated": "2023-02-26T14:07:32.010Z",
+            "group": null,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "apps_users.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$7tfjZ8JkyDzJpIVdMFFr0j$3e5IKJIZov/Qq9DQWAS8aBd6HOU10L8ZVlyg8d95T44=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "testuser@mail.com",
+            "is_active": true,
+            "is_staff": false,
+            "created": "2023-02-26T15:48:37.477Z",
+            "updated": "2023-02-26T15:48:37.477Z",
+            "group": null,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "profiles.profile",
+        "pk": "8d1d0932-80e8-4a3f-9e01-b5b7f8fa3dbf",
+        "fields": {
+            "user": 1,
+            "mobile_number": "0504557788",
+            "full_name": "AdminTestUser",
+            "is_active": true,
+            "image": "profile_ngXttYg.jpg",
+            "address": "AdminHellTest"
+        }
+    },
+    {
+        "model": "profiles.profile",
+        "pk": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+        "fields": {
+            "user": 2,
+            "mobile_number": "0507833233",
+            "full_name": "TestUser",
+            "is_active": false,
+            "image": "profile_L1UUFQJ.jpg",
+            "address": "Lod"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "name": "ChillMaster Portable Air Conditioner",
+            "description": "Keep your home cool and comfortable with this portable air conditioner. It's easy to move around and can cool up to 250 square feet.",
+            "price": 299,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "name": "SmartBrew Coffee Maker",
+            "description": "Enjoy freshly brewed coffee every morning with this smart coffee maker. It can be controlled with your smartphone and has a built-in grinder for freshly ground beans.",
+            "price": 89,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "FreshXpress Juicer",
+            "description": "Get your daily dose of vitamins with this powerful juicer. It has a wide feed chute and can extract juice from fruits and vegetables in seconds.",
+            "price": 149,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "name": "ToastIt 2-Slice Toaster",
+            "description": "Start your day with a perfectly toasted slice of bread. This toaster has 7 different shade settings and a removable crumb tray for easy cleaning.",
+            "price": 39,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "name": "EasyClean Dishwasher",
+            "description": "Make cleaning up after meals a breeze with this high-performance dishwasher. It has a variety of wash settings and can accommodate up to 12 place settings.",
+            "price": 499,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "name": "HydraGlow Moisturizing Cream",
+            "description": "Keep your skin hydrated and glowing with this moisturizing cream. It contains hyaluronic acid and other nourishing ingredients to keep your skin looking its best.",
+            "price": 29,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "name": "GlowGetter Highlighter Palette",
+            "description": "Illuminate your skin with this highlighter palette. It features 4 different shades to suit every skin tone and can be used to accentuate your cheekbones, brow bone, and more.",
+            "price": 25,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "name": "PowerLift Hair Dryer",
+            "description": "Dry your hair quickly and easily with this powerful hair dryer. It has multiple heat and speed settings and comes with a concentrator nozzle for precise styling.",
+            "price": 69,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "name": "SonicClean Electric Toothbrush",
+            "description": "Keep your teeth and gums healthy with this electric toothbrush. Its sonic technology delivers up to 40,000 brush strokes per minute for a thorough clean.",
+            "price": 99,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "name": "CoolBreeze Air Purifier",
+            "description": "Breathe clean air with this air purifier. It filters out dust, pollen, and other allergens, and has a built-in air quality sensor that adjusts the fan speed as needed.",
+            "price": 149,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "name": "EcoClean Laundry Detergent",
+            "description": "Clean your clothes and protect the environment with this eco-friendly laundry detergent. It's made with plant-based ingredients and contains no harsh chemicals.",
+            "price": 14,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "name": "PureWater Water Filter",
+            "description": "Get clean and pure drinking water with this water filter. It removes impurities and contaminants from tap water, and has a long-lasting filter that needs to be replaced only once a year.",
+            "price": 39,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "name": "SolarGlow Outdoor Lights",
+            "description": "Light up your garden or patio with these solar-powered outdoor lights. They charge during the day and automatically turn on at night, providing a warm and inviting ambiance.",
+            "price": 29,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "name": "FlexFit Yoga Pants",
+            "description": "Move freely and comfortably in these yoga pants. They're made with a stretchy and breathable fabric that wicks away sweat, and have a high waistband that stays in place during your practice.",
+            "price": 45,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "name": "SwiftRun Running Shoes",
+            "description": "Run faster and longer in these running shoes. They have a lightweight and breathable design, and a responsive cushioning that provides a comfortable and energized feel.",
+            "price": 99,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+            "name": "ProFit Fitness Tracker",
+            "description": "Stay on top of your fitness goals with this fitness tracker. It tracks your steps, distance, calories burned, and heart rate, and provides real-time feedback and personalized coaching.",
+            "price": 129,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+            "name": "PowerGrip Resistance Bands",
+            "description": "Strengthen and tone your muscles with these resistance bands. They provide adjustable resistance levels and come with a handy carry bag and workout guide.",
+            "price": 29,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 21,
+        "fields": {
+            "name": "WineConnoisseur Wine Glasses",
+            "description": "Sip your favorite wine in these elegant and durable wine glasses. They are made with high-quality glass and have a classic design that enhances the aroma and flavor of your wine.",
+            "price": 39,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 5
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 22,
+        "fields": {
+            "name": "SavorTaste Cheese Knives",
+            "description": "Slice and serve cheese with these premium cheese knives. They are made with high-quality stainless steel and have a comfortable and ergonomic handle for easy grip.",
+            "price": 49,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 5
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 23,
+        "fields": {
+            "name": "Chef's Delight Cookware Set",
+            "description": "Cook delicious and healthy meals with this cookware set. It includes a variety of pots and pans made with high-quality materials and designed for easy and efficient cooking.",
+            "price": 249,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 6
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 24,
+        "fields": {
+            "name": "EasyBake Oven",
+            "description": "Bake delicious cakes, cookies, and pastries with this easy-to-use oven. It has multiple temperature settings and a non-stick surface that makes baking a breeze.",
+            "price": 79,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 6
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 25,
+        "fields": {
+            "name": "ArtisanBake Bread Maker",
+            "description": "Bake fresh and delicious bread at home with this bread maker. It has multiple settings and a delay timer that allows you to have fresh bread ready whenever you want.",
+            "price": 149,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 6
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 26,
+        "fields": {
+            "name": "Nature'sFresh Air Purifier",
+            "description": "Breathe clean and fresh air with this air purifier. It uses advanced filtration technology to remove pollutants and allergens from the air, and has a sleek and modern design that complements any room.",
+            "price": 199,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 7
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 28,
+        "fields": {
+            "name": "ActiveGear Fitness Tracker",
+            "description": "Track your fitness goals and monitor your health with this fitness tracker. It has multiple features such as heart rate monitor, step tracker, and sleep tracker that help you stay on top of your health.",
+            "price": 99,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 8
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 29,
+        "fields": {
+            "name": "SweatSaver Workout Towel",
+            "description": "Stay dry and comfortable during your workouts with this high-quality workout towel. It is made with soft and absorbent material that quickly wicks away sweat and moisture.",
+            "price": 29,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 8
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 30,
+        "fields": {
+            "name": "Trailblaze Camping Hammock",
+            "description": "Relax and unwind in the great outdoors with this comfortable and durable camping hammock. It is made with high-quality materials and has a sturdy and reliable design that can support up to 400 pounds.",
+            "price": 89,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 9
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 31,
+        "fields": {
+            "name": "EcoPals Reusable Shopping Bags",
+            "description": "Say goodbye to single-use plastic bags and switch to these reusable shopping bags. They are made with eco-friendly materials and have a spacious design that can carry all your groceries.",
+            "price": 15,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 10
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 32,
+        "fields": {
+            "name": "SonicBlast Bluetooth Speaker",
+            "description": "Take your music with you wherever you go with this powerful and portable Bluetooth speaker. It has a sleek and modern design and delivers high-quality sound that will impress even the most discerning music lovers.",
+            "price": 129,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 6
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 33,
+        "fields": {
+            "name": "EcoClean All-Purpose Cleaner",
+            "description": "Clean your home safely and effectively with this all-purpose cleaner. It is made with natural and eco-friendly ingredients and has a powerful formula that removes dirt and grime without leaving any harmful residue.",
+            "price": 12,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 5
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 34,
+        "fields": {
+            "name": "GreenGlow LED Light Bulbs",
+            "description": "Reduce your energy consumption and save money on your electricity bills with these energy-efficient LED light bulbs. They have a long lifespan and emit a warm and inviting glow that creates a cozy and comfortable atmosphere.",
+            "price": 9,
+            "added_on": "2023-02-26T14:34:39.568Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 35,
+        "fields": {
+            "name": "InfinityPod Earbuds",
+            "description": "Enjoy your favorite music and podcasts without the hassle of wires. These wireless earbuds have a long battery life and high-quality sound.",
+            "price": 129,
+            "added_on": "2023-02-26T15:41:38.143Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 36,
+        "fields": {
+            "name": "SmartHub Security System",
+            "description": "Keep your home safe and secure with this smart security system. It includes a hub, motion sensor, door sensor, and window sensor.",
+            "price": 299,
+            "added_on": "2023-02-26T15:42:48.015Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 37,
+        "fields": {
+            "name": "ZoomLite Video camera",
+            "description": "Make video calls and online meetings a breeze with this high-quality camera. It has a built-in microphone and can rotate 360 degrees.",
+            "price": 79,
+            "added_on": "2023-02-26T15:43:26.871Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 38,
+        "fields": {
+            "name": "StreamMate Stick",
+            "description": "Stream your favorite TV shows and movies on any TV with this streaming stick. It has a simple interface and supports popular streaming services.",
+            "price": 49,
+            "added_on": "2023-02-26T15:44:15.214Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 39,
+        "fields": {
+            "name": "MaxCharge Power Bank",
+            "description": "Just a power bank",
+            "price": 39,
+            "added_on": "2023-02-26T15:45:21.955Z",
+            "image": "/placeholder.png",
+            "is_active": true,
+            "category": 1
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "01b74406-6bcc-4ca5-a08f-ddc66aa1bbbe",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 1,
+            "content": "First, the smell was a bit strong. Second, it left my hair feeling a bit greasy",
+            "rating": "3",
+            "is_active": true,
+            "pub_date": "2023-02-26T15:55:18.120Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "06098a51-135e-4f1a-8886-5482f1385568",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 13,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.554Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "0ada0621-bcf6-4f81-a7d8-ac0b8406c510",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 3,
+            "content": "5 Sandy from New Jersey I have dry skin and this product is",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T15:56:25.052Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "0b0711bf-90c6-4240-8668-df752e664600",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 8,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.492Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "0cdca0cd-7e68-41b0-99b0-f5c65a64b7f8",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 5,
+            "content": "This product was easy to use and worked great. I would recommend this product to anyone.",
+            "rating": "4",
+            "is_active": true,
+            "pub_date": "2023-02-26T16:02:52.238Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "10a2f340-839d-44b4-ab21-ce125ec85ac0",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 38,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.805Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "11f963e6-d8e1-43f9-bdf7-76b6dc65ff3f",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 4,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.454Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "1224acff-745e-4d60-903e-6bed88c409d7",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 1,
+            "content": "I would not recommend this product to anyone.",
+            "rating": "1",
+            "is_active": true,
+            "pub_date": "2023-02-26T15:54:53.817Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "1b851d90-6bea-4bcd-aef3-147b63d0f766",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 6,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.479Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "234c33b3-0480-476b-82b3-8db00eb1009a",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 37,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.794Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "246a53c2-e58b-4595-a496-77dec6c96c21",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 9,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.503Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "2cbf6df6-0c76-4d04-89e8-a3aa050d73ea",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 11,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.531Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "38c12aec-b3a8-48d1-ab1d-b9053053b154",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 19,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.612Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "3ab87851-d76e-4d98-90dc-28eeb840604e",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 2,
+            "content": "5 Sandra from undisclosed I purchased this product and it exceeded my expectations",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T16:00:29.872Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "49691584-13f8-4167-96d4-192fd1797644",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 25,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.669Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "4a7d3e2e-a511-4242-8d56-93aacdc9a3ed",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 1,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.421Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "577df117-0bb6-4cd5-8570-9bbbca93e808",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 18,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.601Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "61d98a4f-d913-4b2e-b2d7-a487cf36865e",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 15,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.578Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "692ac5cb-4c5a-499e-8661-c502093f985f",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 5,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.467Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "6bb19135-c076-4edb-b01c-edd50ade4fd4",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 2,
+            "content": "The first thing is that it didn't seem to stay on my lips very well. I would have",
+            "rating": "3",
+            "is_active": true,
+            "pub_date": "2023-02-26T15:57:35.212Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "6f4a761d-05c1-415f-841a-556bfab6661c",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 33,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.749Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "6fc36498-562d-4c3e-847d-07ba2d3fe9e2",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 3,
+            "content": "5 Tiffany from undisclosed I purchased this product and it exceeded my",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T15:56:08.634Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "73ada0ad-8ad4-4a2a-8155-e1abe05c2ce7",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 2,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.433Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "7908820f-1a41-4b90-a278-b77b5d7c4c5c",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 22,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.634Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "7b9db0ee-df65-420c-8e07-f805e5111501",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 1,
+            "content": "5 Lori from undisclosed I purchased this product and it exceeded my expectations",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T15:55:37.974Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "7e145618-2c4b-4488-88e5-8896fed72ba9",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 28,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.691Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "8dd9d51a-e626-41f6-9a8e-e6467bb8f307",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 39,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.817Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "906882af-a988-40ee-bdd3-26dd561a9a12",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 2,
+            "content": "5 Diana from undisclosed I purchased this product and it exceeded my expectations. It was fantastic and I would definitely recommend it. This product is so light and airy and it feels amazing 5",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T16:01:35.353Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "93f4d071-83c3-4d85-a140-e82100255e8a",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 34,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.760Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "9498fe8f-e700-40c9-b337-0c461e2fc9b6",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 16,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.591Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "98bd4fcf-d45a-4434-8df5-834bc83259e0",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 26,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.680Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "9af6ae3a-dc38-4114-a7d2-e5ffa71497ff",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 12,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.543Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "a28ddcb5-10e3-4d45-a6cc-52ed8b592bdc",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 14,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.566Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "a65b187a-387b-447f-84cd-74f1aa753fa4",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 10,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.518Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "a881918e-b623-4d04-8a7b-89f89163f42c",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 36,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.784Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "a9ccab53-ff31-4b4a-9726-94fc4ef8cf84",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 29,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.703Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "b90d8774-2f8a-43f5-be62-0d5b6d98e13d",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 5,
+            "content": "I would not recommend this product to anyone.",
+            "rating": "1",
+            "is_active": true,
+            "pub_date": "2023-02-26T16:02:43.629Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "ba8cd9f3-f253-4693-8a77-b2dd81352237",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 3,
+            "content": "The first was that the bottle was only half full when I received it. I understand that sometimes products",
+            "rating": "3",
+            "is_active": true,
+            "pub_date": "2023-02-26T15:56:36.598Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "bc4ace99-027d-4015-8c3f-84495279596e",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 31,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.725Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "bcdcee25-7725-4499-9b90-b2b93cbad3c4",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 35,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.771Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "c05a519e-1ea5-4761-929c-b9e9b770414e",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 32,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.735Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "c387be32-0095-4431-b676-73a824c68b65",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 30,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.714Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "c598d4ac-5829-44f4-8455-c33d27459216",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 3,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.444Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "d5f09dd2-3fe8-4456-9bac-eccfeb4411af",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 2,
+            "content": "First, the sprayer was a little hard to use. Second, the scent wasn't great. Overall, it was a decent product, but I wouldn't purchase it again.",
+            "rating": "3",
+            "is_active": true,
+            "pub_date": "2023-02-26T16:01:07.838Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "ddc7b9bc-7d25-444d-a1b5-bf7c03e79bce",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 23,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.645Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "ec4b4968-2dff-4b95-8987-1420c25aa5d0",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 21,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.622Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "f0b3cb2e-ac4d-444f-b696-2d439485c492",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 2,
+            "content": "5 Diane from undisclosed I purchased this product and it exceeded my expectations. It was fantastic and I would definitely recommend it. Amazing 5 M",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T16:02:09.843Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": "f9c7dc4a-7273-4d0d-bbc0-084c665d8703",
+        "fields": {
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9",
+            "product": 24,
+            "content": "This product is a game changer! It exceeded my expectations and delivered outstanding results. Highly recommend it to anyone looking for top-notch quality.",
+            "rating": "5",
+            "is_active": true,
+            "pub_date": "2023-02-26T17:25:56.655Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": "3c9690a9-4d0e-46ea-8f68-3daed079c006",
+        "fields": {
+            "order_date": "2023-02-26T15:52:03.516Z",
+            "profile": "a0f96b75-0820-4f99-bdb5-2fae24a968b9"
+        }
+    },
+    {
+        "model": "orders.orderdetail",
+        "pk": "28f413d4-fe68-450e-8b47-34d172058686",
+        "fields": {
+            "order": "3c9690a9-4d0e-46ea-8f68-3daed079c006",
+            "quantity": 1,
+            "product": 1
+        }
+    },
+    {
+        "model": "orders.orderdetail",
+        "pk": "49ea2684-88f9-49fe-b316-dcabae65d0d3",
+        "fields": {
+            "order": "3c9690a9-4d0e-46ea-8f68-3daed079c006",
+            "quantity": 1,
+            "product": 2
+        }
+    },
+    {
+        "model": "orders.orderdetail",
+        "pk": "4ecf281b-8380-4446-af3d-5d0c339375d2",
+        "fields": {
+            "order": "3c9690a9-4d0e-46ea-8f68-3daed079c006",
+            "quantity": 1,
+            "product": 3
+        }
+    },
+    {
+        "model": "orders.orderdetail",
+        "pk": "ebdba4ea-ea4a-4cad-9be7-594a341bbb07",
+        "fields": {
+            "order": "3c9690a9-4d0e-46ea-8f68-3daed079c006",
+            "quantity": 1,
+            "product": 5
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 1,
+        "fields": {
+            "name": "Home appliances",
+            "is_active": true
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 2,
+        "fields": {
+            "name": "Personal care products",
+            "is_active": true
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 3,
+        "fields": {
+            "name": "Clothing and fashion accessories",
+            "is_active": true
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 4,
+        "fields": {
+            "name": "Electronics and gadgets",
+            "is_active": true
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 5,
+        "fields": {
+            "name": "Sports equipment",
+            "is_active": true
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 6,
+        "fields": {
+            "name": "Toys and games",
+            "is_active": true
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 7,
+        "fields": {
+            "name": "Automotive parts and accessories",
+            "is_active": true
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 8,
+        "fields": {
+            "name": "Beauty and skincare products",
+            "is_active": true
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 9,
+        "fields": {
+            "name": "Home decor and furnishings",
+            "is_active": true
+        }
+    },
+    {
+        "model": "categories.category",
+        "pk": 10,
+        "fields": {
+            "name": "Office supplies and stationery",
+            "is_active": true
+        }
+    }
+]
