@@ -7,7 +7,7 @@ import {
   getAllProductsAsync,
   selectProducts,
 } from "../features/product/productSlice";
-import { MY_SERVER } from "../env";
+import { MY_SERVER,SERVER_IMAGES } from "../env";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -117,7 +117,7 @@ const HomeScreen: React.FC = () => {
         {images.map((src, i) => (
           <SlideshowImage
             key={i}
-            src={MY_SERVER + src.image}
+            src={SERVER_IMAGES + src.image}
             alt={`Slide ${i + 1}`}
             style={{ transform: `translateX(${(i - index) * 100}%)` }}
           />

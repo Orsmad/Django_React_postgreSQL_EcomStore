@@ -1,5 +1,5 @@
 import axios from "axios";
-import { MY_SERVER } from "../../env";
+import { MY_SERVER} from "../../env";
 import Product from "../../models/Product";
 
 export function addProduct(stu: Product) {

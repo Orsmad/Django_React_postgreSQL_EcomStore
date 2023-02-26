@@ -1,1 +1,3 @@
-export const MY_SERVER = "http://127.0.0.1:8000/";
+export const MY_SERVER = "https://smadgify.onrender.com/";
+
+export const SERVER_IMAGES='https://smadgify.onrender.com'

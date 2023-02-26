@@ -7,7 +7,7 @@ import {
 } from "./profileSclice";
 import FormControl from "@mui/material/FormControl";
 import { Button, Card, CardMedia } from "@mui/material";
-import { MY_SERVER } from "../../env";
+import { SERVER_IMAGES } from "../../env";
 import Profile from "../../models/Profile";
 import SendIcon from "@mui/icons-material/Send";
 
@@ -132,7 +132,7 @@ const ProfileView = () => {
           </div>
         </div>
         <img
-          src={MY_SERVER + fixUserProfile.image}
+          src={SERVER_IMAGES + fixUserProfile.image}
           alt="Example image"
           style={{ width: "20%", height: "50%" }}
         />

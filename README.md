@@ -16,6 +16,19 @@ Project was created for 'John Bryce'
 * Fake ecommerce store that is designed for coursework at John Bryce.
 Provides an excellent user experience that is both intuitive and secure.
 
+## Superuser:
+Email: admintest@mail.com
+password: Aa123456
+
+## Testuser:
+Email: testuser@mail.com
+password: Aa123456
+
+## Seed DB:
+* py ./manage.py > dumpdata db.json
+* py ./manage.py loaddata db.json
+
+
 ## Setup
 
 First, change the DB.
