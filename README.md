@@ -4,6 +4,10 @@
 My ecommerce store project is a full-stack web application that was built using Django, DRF, React with TypeScript, Redux, PostgreSQL, and Docker. 
 Project was created for 'John Bryce' 
 
+## LINK
+site is live at https://lovely-creponne-ff5330.netlify.app/
+
+
 ## Key Features
 * Built with Django, DRF, React with TypeScript, Redux, PostgreSQL, and Docker.
 * AI-powered system that recommends products reviews based on user browsing history and purchase behavior.
