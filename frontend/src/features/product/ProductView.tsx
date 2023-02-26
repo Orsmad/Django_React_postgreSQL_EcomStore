@@ -10,7 +10,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
-import { MY_SERVER } from "../../env";
+import { SERVER_IMAGES } from "../../env";
 import { addToCart, itemExistsInList, removeFromCart } from "../../utils/cart";
 import { selectAuth } from "../authentication/authSlice";
 import Reviews from "../review/Reviews";
@@ -77,7 +77,7 @@ const ProductView = () => {
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image={MY_SERVER + product.image}
+              image={SERVER_IMAGES + product.image}
               title={product.name}
             />
 

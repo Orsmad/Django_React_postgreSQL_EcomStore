@@ -6,5 +6,5 @@ class UsersConfig(AppConfig):
     label = 'apps_users'
     
 
-    # def ready(self):
-    #     import apps.users.signals  
+    def ready(self):
+        import apps.users.signals  

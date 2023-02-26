@@ -9,7 +9,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { getAllProductsByidAsync, selectProducts } from "./productSlice";
-import { MY_SERVER } from "../../env";
+import { SERVER_IMAGES } from "../../env";
 import { ToastContainer } from "react-toastify";
 import Product from "../../models/Product";
 
@@ -88,7 +88,7 @@ const Products = () => {
               <LazyCard sx={{ maxWidth: 345 }}>
                 <CardMedia
                   sx={{ height: 140 }}
-                  image={MY_SERVER + product.image}
+                  image={SERVER_IMAGES + product.image}
                   title={product.name}
                 />
 
