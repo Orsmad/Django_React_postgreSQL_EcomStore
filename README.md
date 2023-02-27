@@ -5,7 +5,8 @@ My ecommerce store project is a full-stack web application that was built using 
 Project was created for 'John Bryce' 
 
 ## LINK
-site is live at https://lovely-creponne-ff5330.netlify.app/
+site is live at https://smadgifyecom.netlify.app/
+
 
 
 ## Key Features

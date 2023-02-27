@@ -47,6 +47,20 @@ function ResponsiveAppBar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+  // if (!isauth) {
+  //   pages.push('login');
+  //   pages.push('register');
+  // }
+  // else {
+  //   const index1 = pages.indexOf('login');
+  //   const index2 = pages.indexOf('register');
+  //   if (index1 !== -1) {
+  //     pages.splice(index1, 1);
+  //   }
+  //   if (index2 !== -1) {
+  //     pages.splice(index2, 1);
+  //   }
+  // }
 
   return (
     <div>
@@ -190,22 +204,32 @@ function ResponsiveAppBar() {
                 </Menu>
               </Box>
             ) : (
-              <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-                {options.map((option) => (
-                  <Button
-                    variant="outlined"
-                    key={option}
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: "white", display: "block" }}
-                  >
-                    <Link className="active" to={option}>
-                      {" "}
-                      {option}
-                    </Link>
-                  </Button>
-                ))}
-              </Box>
-            )}
+              <Box
+              sx={{
+                flexGrow: 1,
+                display: {
+                  xs: "flex",
+                  md: "flex"
+                }
+              }}
+            >
+              {options.map((option) => (
+                <Button
+                  variant="outlined"
+                  key={option}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                >
+                  <Link className="active" to={option}>
+                    {" "}
+                    {option}
+                  </Link>
+                </Button>
+              ))}
+            </Box>
+            
+            )
+            }
 
             <Link className="active" to="/cart">
               {" "}

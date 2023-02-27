@@ -6,7 +6,7 @@ import {
   updateProileAsync,
 } from "./profileSclice";
 import FormControl from "@mui/material/FormControl";
-import { Button, Card, CardMedia } from "@mui/material";
+import { Box, Button, Card, CardMedia, Grid, TextField, Typography } from "@mui/material";
 import { SERVER_IMAGES } from "../../env";
 import Profile from "../../models/Profile";
 import SendIcon from "@mui/icons-material/Send";
@@ -16,21 +16,19 @@ import "react-toastify/dist/ReactToastify.css";
 
 const ProfileView = () => {
   const dispatch = useAppDispatch();
-  const userProfile = useAppSelector(selectProfile);
   const notify = () => toast("Profile was updated! ");
 
   useEffect(() => {
     dispatch(getProfileAsync());
   }, []);
+  const userProfile = useAppSelector(selectProfile);
+
   const [fixUserProfile, setFixUserProfile] = useState(userProfile[0]);
   const [full_name, setFull_name] = useState("");
   const [address, setAddress] = useState("");
   const [mobile_number, setMobile_number] = useState("");
   const [image, setImage] = useState<File | null>(null);
 
-  // useEffect(() => {
-  //   dispatch(getProfileAsync());
-  // }, [dispatch]);
   // Listen for changes to the user profile in the Redux store
   useEffect(() => {
     // Check if the profile was updated
@@ -90,8 +88,6 @@ const ProfileView = () => {
       form_data.append("address", address);
     }
 
-    // form_data.append("id", userProfile.id);
-
     await dispatch(updateProileAsync(form_data));
     notify();
     setFull_name("");
@@ -105,120 +101,105 @@ const ProfileView = () => {
   }
   return (
     <div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <div
-          style={{ display: "flex", alignItems: "center", marginRight: "20px" }}
-        >
-          <div style={{ marginLeft: "20px" }}>
-            <div>
-              <p>
-                <strong>Full Name:</strong>
-              </p>
-              <p>{fixUserProfile.full_name}</p>
-            </div>
-            <div>
-              <p>
-                <strong>Address:</strong>
-              </p>
-              <p>{fixUserProfile.address}</p>
-            </div>
-            <div>
-              <p>
-                <strong>Mobile Number:</strong>
-              </p>
-              <p>{fixUserProfile.mobile_number}</p>
-            </div>
-            <ToastContainer />
-          </div>
-        </div>
-        <img
-          src={SERVER_IMAGES + fixUserProfile.image}
-          alt="Example image"
-          style={{ width: "20%", height: "50%" }}
-        />
+    <Box mt={4}>
+    <Grid container spacing={2}>
 
-        <form
-          onSubmit={handleSubmit}
-          style={{ display: "flex", flexDirection: "column" }}
-        >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            <label htmlFor="photo-input">Photo:</label>
-            <input
-              type="file"
-              id="photo-input"
-              accept="image/*"
-              onChange={handlePhotoChange}
-            />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            <label htmlFor="titleFull_name">Full Name:</label>
-            <input
-              type="text"
-              placeholder="Full Name"
-              id="titleFull_name"
-              value={full_name}
-              onChange={handleFull_name}
-              required
-              minLength={2}
-              maxLength={40}
-            />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            <label htmlFor="content">Address:</label>
-            <input
-              type="text"
-              placeholder="Address"
-              id="content"
-              value={address}
-              onChange={handleAddress}
-              minLength={2}
-              maxLength={40}
-              required
-            />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            <label htmlFor="mobile_number">Mobile Number:</label>
-            <input
-              type="text"
-              placeholder="Mobile Number"
-              id="mobile_number"
-              value={mobile_number}
-              onChange={handleMobile_number}
-              minLength={6}
-              maxLength={14}
-              required
-            />
-          </div>
-          <Button type="submit" endIcon={<SendIcon />}>
-            Update My Profile
-          </Button>
-        </form>
-      </div>
+    <Grid item xs={12}>
+          <Typography variant="h5" align="center">
+            User Profile
+          </Typography>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Typography>
+            <strong>Full Name:</strong>
+          </Typography>
+          <Typography>{fixUserProfile.full_name}</Typography>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Typography>
+            <strong>Address:</strong>
+          </Typography>
+          <Typography>{fixUserProfile.address}</Typography>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Typography>
+            <strong>Mobile Number:</strong>
+          </Typography>
+          <Typography>{fixUserProfile.mobile_number}</Typography>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <img
+            src={SERVER_IMAGES + fixUserProfile.image}
+            alt="Example image"
+            style={{ width: "40%" }}
+          />
+        </Grid>
+      <ToastContainer />
+      <form onSubmit={handleSubmit}>
+            <Grid container spacing={2}>
+              <Grid item xs={12}>
+                <Typography variant="h6">Update Profile</Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <input
+                  type="file"
+                  accept="image/*"
+                  onChange={handlePhotoChange}
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <TextField
+                  id="full_name"
+                  name="full_name"
+                  label="Full Name"
+                  variant="outlined"
+                  value={full_name}
+                  onChange={handleFull_name}
+                  fullWidth
+                  required
+                  inputProps={{ maxLength: 40 }}
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <TextField
+                  id="address"
+                  name="address"
+                  label="Address"
+                  variant="outlined"
+                  value={address}
+                  onChange={handleAddress}
+                  fullWidth
+                  required
+                  />
+
+</Grid>
+<Grid item xs={12} md={6}>
+                <TextField
+                  id="mobile_number"
+                  name="mobile_number"
+                  label="mobile number"
+                  variant="outlined"
+                  value={mobile_number}
+                  onChange={handleMobile_number}
+                  fullWidth
+                  required
+                  inputProps={{ maxLength: 40 }}
+             
+                />
+              </Grid>
+
+        
+        <Button type="submit" endIcon={<SendIcon />}>
+          Update My Profile
+        </Button>
+        </Grid>
+
+      </form>
+      </Grid>
+
+    </Box>
     </div>
+
   );
 };
 
