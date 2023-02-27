@@ -83,7 +83,14 @@ const Products = () => {
         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
       >
         {products.slice(0, visibleProducts).map((product, index) => (
-          <Grid item xs={2} sm={4} md={4} key={index}>
+             <Grid
+             item
+             xs={12}
+             sm={6}
+             md={4}
+             key={index}
+             sx={{ padding: "8px", maxWidth: "none" }}
+           >
             <Suspense fallback={<div>Loading...</div>}>
               <LazyCard sx={{ maxWidth: 345 }}>
                 <CardMedia

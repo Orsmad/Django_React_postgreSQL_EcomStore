@@ -44,25 +44,29 @@ const Reviews = (product: Product) => {
         <Grid container spacing={2}>
           {reviews.map((review, index) => {
             return (
-              <Grid key={review.id} item xs={2}>
-                <Card key={index}>
+              <Grid key={review.id} item xs={12} md={4}>
+                <Card key={index} sx={{ height: "100%" }}>
                   <CardMedia
-                    sx={{ height: 140 }}
+                    sx={{
+                      height: 0,
+                      paddingTop: "56.25%", // 16:9
+                    }}
                     image="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
                     title={product.name}
                   />
 
-                  <CardContent>
+                  <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="div">
                       <Rating
                         name="read-only"
                         value={Number(review.rating)}
                         readOnly
                       />
-                      <br></br>
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      {review.content}
                     </Typography>
                   </CardContent>
-                  {review.content}
                 </Card>
               </Grid>
             );

@@ -7,12 +7,10 @@ from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 import logging
 import os
-from dotenv import load_dotenv
+from decouple import config
 
-dotenv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),'.env')
-load_dotenv(dotenv_path)
 
-API_KEY = os.getenv('API_KEY')
+API_KEY = config('API_KEY')
 
 
 logger = logging.getLogger(__name__)
